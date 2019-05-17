@@ -121,7 +121,7 @@ When a user click on one of the beers, you should display a detailed view of it,
 
 ### Iteration 6: Random Beer
 
-On the `/random-beer` route, we will render a single beer that will be retrieved from the database. The endpoint will do all the job for us, so we need to call to `https://ironbeer-api.herokuapp.com/beers/random`. We should receive an object including all the info about a beer. The same way we did with the **Single Beer** view, we should render the following fields: 
+On the `/random-beer` route, we will render a single beer that will be retrieved from the database. The endpoint will do all the job for us, so we need to call to `https://ih-beer-api.herokuapp.com/beers/random`. We should receive an object including all the info about a beer. The same way we did with the **Single Beer** view, we should render the following fields: 
 
   - `image`
   - `name`
@@ -147,7 +147,7 @@ Finally, on the `/new-beer` route, we should render a form where user could crea
   - **attenuation_level**
   - **contributed_by**
 
-Then, you should do a `POST` request to `https://ironbeer-api.herokuapp.com/beers/new`, passing all the data on the `body` object. If everything went ok, you would receive a **200** response from the server. 
+Then, you should do a `POST` request to `https://ih-beer-api.herokuapp.com/beers/new`, passing all the data on the `body` object. If everything went ok, you would receive a **200** response from the server. 
 
 Notice that the fields on the `body` should have those specific **names** so the API can create a new beer.
 
@@ -161,7 +161,7 @@ Since we did not cover how to upload images, do not worry about that, the API wi
 
 ### (Extra) Bonus Iteration: Filter the Beers
 
-Yes! One endpoint left! On the `/beers` route, add an `input` where users can search for beers. Every time a new letter is typed, you should call to `https://ironbeer-api.herokuapp.com/beers/search?q={query}` passing the value of the input in the `q` param.
+Yes! One endpoint left! On the `/beers` route, add an `input` where users can search for beers. Every time a new letter is typed, you should call to `https://ih-beer-api.herokuapp.com/beers/search?q={query}` passing the value of the input in the `q` param.
 
 # We are done!
 
