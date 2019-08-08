@@ -1,0 +1,28 @@
+.beers-list{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.beers-list article{
+  display: flex;
+  padding: 5%;
+  
+}
+.beers-list article img{
+  width: 50px;
+
+}
+
+.beers-info{
+  text-align: left;
+  width: 100%;
+  margin: 3%;
+}
+
+#header{
+  width: 100%;
+}
+
+h1{
+  text-align: center
+}
