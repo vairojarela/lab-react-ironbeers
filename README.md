@@ -10,7 +10,7 @@ Since beers is one of the most demanded drinks between Ironhackers, we will crea
  
 ## Introduction
 
-For this project, we will be using an API so that we can retrieve the data of the beers. The root of the API is: `https://ironbeer-api.herokuapp.com/beers`, and the available endpoints are the following:
+For this project, we will be using an API so that we can retrieve the data of the beers. The root of the API is: `https://ih-beer-api.herokuapp.com/beers`, and the available endpoints are the following:
 
 | Method | Endpoint | Response (200)     | Action |
 | ------ | -------- | ------------------ | ------ |
